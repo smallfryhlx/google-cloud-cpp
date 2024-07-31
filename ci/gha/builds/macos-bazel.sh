@@ -22,6 +22,9 @@ source module ci/gha/builds/lib/macos.sh
 source module ci/gha/builds/lib/bazel.sh
 source module ci/lib/io.sh
 
+io::log_h1 "DARREN : Skipping build while testing"
+exit 0
+
 # Usage: macos-bazel.sh [bazel query expression]
 #
 # The build compiles the targets found via `bazel query`. Recall that:

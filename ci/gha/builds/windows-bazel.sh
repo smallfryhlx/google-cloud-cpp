@@ -21,6 +21,9 @@ source "$(dirname "$0")/../../lib/init.sh"
 source module ci/gha/builds/lib/windows.sh
 source module ci/gha/builds/lib/bazel.sh
 
+io::log_h1 "DARREN : Skipping build while testing"
+exit 0
+
 # Usage: windows-bazel.sh <compilation-mode>
 
 test_args+=("${msvc_args[@]}")

@@ -46,7 +46,9 @@
     }
   ],
   "overrides": [
-    {"name": "openssl","version" : "1.1.1m"}
+    {"name": "openssl","version" : "1.1.1m"},
+     {"name": "curl","version" : "7.78.0"},
+     {"name": "protobuf","version" : "3.6.1"}
   ],
   "builtin-baseline": "46e2bec50a401cbbf77d00cfa054fcb34be38f1d"
 }

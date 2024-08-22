@@ -44,5 +44,9 @@
       "$description": "Only used for the docfx feature.",
       "name": "yaml-cpp"
     }
-  ]
+  ],
+  "overrides": [
+    {"name": "openssl","version" : "1.1.1m"}
+  ],
+  "builtin-baseline": "46e2bec50a401cbbf77d00cfa054fcb34be38f1d"
 }
